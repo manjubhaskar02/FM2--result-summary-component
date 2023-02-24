@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body class=" ">
+  <div class="grid items-center justify-center h-screen">
+    <div
+      class="bg-white lg:h-fit lg:w-[525px] rounded-3xl md:w-2/5  grid lg:grid-cols-2 shadow-lg shadow-gray-300   m-auto ">
+      <div id="gradient1" class="lg:h-[365px] rounded-b-3xl  px-6 lg:rounded-3xl">
+        <p class="hanken dull-blue capitalize text-[15px] lg:text-[17px] hanken text-center font-medium py-4 lg:py-6">
+          your result</p>
+        <div id="gradient2" class="w-fit mx-auto  rounded-full px-8 py-4 lg:px-11 lg:py-7 mb-3 ">
+          <p class="hanken text-center text-white font-extrabold text-[44px] lg:text-[50px] leading-[64px]">76</p>
+          <p class="hanken text-center lavender font-medium text-[13px]">of 100</p>
+        </div>
+        <h3 class="hanken text-center text-white font-medium text-[20px] lg:text-[23px] py-2 lg:py-2">Great</h3>
+        <p class="hanken lavender text-center font-medium text-[13px] mx-4 mb-8 leading-[16px]"> You scored higher than
+          65% of the people who have taken these tests. </p>
+      </div>
+
+      <div class="lg:rounded-3xl bg-white p-6  ">
+        <h3 class="hanken dark-blue text-[17px] font-bold  ">Summary</h3>
+        <div class=" grid grid-row-4 gap-4 py-5 ">
+          <div class="flex justify-between pale-red p-4 rounded-lg lg:py-2  ">
+            <div class="flex">
+              <img class="mr-2 h-4" src="assets/images/icon-reaction.svg" alt="">
+              <p class="hanken font-bold red text-[13px]">Reaction</p>
+            </div>
+            <p class="hanken dark-blue font-bold text-sm">80 <span class="text-gray-400">/100</span></p>
+          </div>
+          <div class="flex justify-between p-4 rounded-lg pale-yellow lg:py-2 ">
+            <div class="flex">
+              <img class="mr-2 h-4" src="assets/images/icon-memory.svg" alt="">
+              <p class="hanken font-bold yellow text-[13px]">Memory</p>
+            </div>
+            <p class="hanken dark-blue font-bold text-sm">92 <span class="text-gray-400">/100</span></p>
+          </div>
+          <div class="flex justify-between p-4 rounded-lg pale-teal lg:py-2">
+            <div class="flex">
+              <img class="mr-2 h-4" src="assets/images/icon-verbal.svg" alt="">
+              <p class="hanken font-bold teal text-[13px]">Verbal</p>
+            </div>
+            <p class="hanken dark-blue font-bold text-sm">61 <span class="text-gray-400">/100</span></p>
+          </div>
+          <div class="flex justify-between p-4 rounded-lg pale-blue lg:py-2">
+            <div class="flex">
+              <img class="mr-2 h-4" src="assets/images/icon-visual.svg" alt="">
+              <p class="hanken font-bold blue text-[13px]">Visual</p>
+            </div>
+            <p class="hanken dark-blue font-bold text-sm">72 <span class="text-gray-400">/100</span></p>
+          </div>
+        </div>
+        <button
+          class="my-2 w-full rounded-full p-3 hanken blue-button text-white text-sm font-medium lg:p-2.5">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
